@@ -24,3 +24,5 @@ if (!defined('__TYPECHO_ROOT_DIR__') && !@include_once 'config.inc.php') {
 
 /** 注册一个结束插件 */
 \Typecho\Plugin::factory('index.php')->call('end');
+
+define('TYPECHO_SECURE',true);
